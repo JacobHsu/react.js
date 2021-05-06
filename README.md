@@ -7,6 +7,10 @@
   Gatsby minimal starter
 </h1>
 
+## npm
+
+[eslint](https://www.npmjs.com/package/eslint) `.eslintrc` `.eslintignore`
+
 ## 🚀 [Quick start](https://www.gatsbyjs.com/docs/quick-start/)
 
 1.  **Create a Gatsby site.**
