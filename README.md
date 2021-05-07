@@ -11,6 +11,17 @@
 
 [eslint](https://www.npmjs.com/package/eslint) `.eslintrc` `.eslintignore`
 
+## 設定 gatsby 可不用相對路徑
+
+> Module not found: Error: Can't resolve  'components/Layout' in 
+
+目標 `import Layout from 'components/Layout';`
+原本應寫 `import Layout from '../components/Layout';`
+
+> gatsby-node.js  
+
+`exports.onCreateWebpackConfig = require('./gatsby/onCreateWebpackConfig');`
+
 ## 🚀 [Quick start](https://www.gatsbyjs.com/docs/quick-start/)
 
 1.  **Create a Gatsby site.**

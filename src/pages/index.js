@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import Layout from 'components/Layout';
 
 // styles
 const pageStyles = {
@@ -130,6 +131,7 @@ class Home extends Component {
   render() {
     return (
       <main style={pageStyles}>
+        <Layout></Layout>
         <title>Home Page</title>
         <h1 style={headingStyles}>
           Congratulations
