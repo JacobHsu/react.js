@@ -9,7 +9,8 @@
 
 ## npm
 
-[eslint](https://www.npmjs.com/package/eslint) `.eslintrc` `.eslintignore`
+[eslint](https://www.npmjs.com/package/eslint) `.eslintrc` `.eslintignore`  
+[normalize.css](https://github.com/necolas/normalize.css/) A modern alternative to CSS resets  
 
 ## 設定 gatsby 可不用相對路徑
 

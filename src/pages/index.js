@@ -129,9 +129,10 @@ const links = [
 
 class Home extends Component {
   render() {
+    const {location} = this.props;
     return (
       <main style={pageStyles}>
-        <Layout></Layout>
+        <Layout location={location}></Layout>
         <title>Home Page</title>
         <h1 style={headingStyles}>
           Congratulations
