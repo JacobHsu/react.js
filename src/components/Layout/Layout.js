@@ -7,9 +7,12 @@
 
 
 import React, {Component} from 'react';
+import Header from 'components/LayoutHeader';
 
 class Template extends Component {
   render() {
+    const {location} = this.props;
+
     return (
       <div
         css={{
@@ -17,6 +20,7 @@ class Template extends Component {
           flexDirection: 'column',
           minHeight: 'calc(100vh - 40px)',
         }}>
+          <Header location={location} />
           import layout
       </div>
     );
