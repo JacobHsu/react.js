@@ -14,7 +14,7 @@ import {colors} from 'theme';
 
 import logoSvg from 'icons/logo.svg';
 
-const Header = ({location}) => (
+const Header = ({location}: {location: Location}) => (
   <header
     css={{
       backgroundColor: colors.darker,

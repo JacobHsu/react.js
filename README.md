@@ -12,6 +12,31 @@
 [eslint](https://www.npmjs.com/package/eslint) `.eslintrc` `.eslintignore`  
 [normalize.css](https://github.com/necolas/normalize.css/) A modern alternative to CSS resets  
 
+## .babelrc
+
+[Babel](https://www.babeljs.cn/docs/) 是一个 JavaScript 编译器
+Babel 是一个工具链，主要用于将采用 ECMAScript 2015+ 语法编写的代码转换为向后兼容的 JavaScript 语法
+
+ 1 problem (1 error, 0 warnings)
+> src\components\LayoutHeader\Header.js:  
+Unexpected token, expected "," (17:26)
+
+```js
+const Header = ({location}: {location: Location}) =>
+// const Header = ({location}) =>
+```
+
+`src\.babelrc`
+
+package.json
+
+```js
+,
+  "devDependencies": {
+    "@babel/preset-flow": "^7.0.0"
+  }
+```
+
 ## 設定 gatsby 可不用相對路徑
 
 > Module not found: Error: Can't resolve  'components/Layout' in 
